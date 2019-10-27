@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.4.2',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="已更新第二课的大纲">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微积分大纲">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;10&#x2F;syllabus&#x2F;index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="已更新第二课的大纲">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;6BwLc71&#x2F;IMG-0246.jpg">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;hXLZwhz&#x2F;2019-10-25-10-25-40.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;bPfFL2r&#x2F;2019-10-25-10-27-58.png%22">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;Vgy9wWc&#x2F;2019-10-25-10-59-42.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;CBq2F0t&#x2F;2019-10-25-10-59-25.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;8dJCHcQ&#x2F;2019-10-25-11-46-07.png%22">
+<meta property="og:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;dgGrHbB&#x2F;2019-10-24-9-42-07.png">
+<meta property="og:updated_time" content="2019-10-27T12:38:39.412Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;i.ibb.co&#x2F;6BwLc71&#x2F;IMG-0246.jpg">
+
+<link rel="canonical" href="http://yoursite.com/2019/10/10/syllabus/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>微积分大纲 | Hexo</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/10/syllabus/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          微积分大纲
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-10-10 02:15:42" itemprop="dateCreated datePublished" datetime="2019-10-10T02:15:42+08:00">2019-10-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-10-27 20:38:39" itemprop="dateModified" datetime="2019-10-27T20:38:39+08:00">2019-10-27</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>已更新第二课的大纲</p>
+<a id="more"></a>
+
+
+<h1 id="函数-関数-かんすう"><a href="#函数-関数-かんすう" class="headerlink" title="函数 関数(かんすう)"></a>函数 関数(かんすう)</h1><h2 id="映射-map-写像-しゃぞう"><a href="#映射-map-写像-しゃぞう" class="headerlink" title="映射 map 写像(しゃぞう)"></a>映射 map 写像(しゃぞう)</h2><p>定义: 非空集合$X, Y. \exists$ 法则$f$ , 令</p>
+<p>$\forall x\in X, \exists y\in Y$, 使$Y$中有<strong>唯一确定</strong>的元素y与x对应.</p>
+<p>称$f$为从X到Y的映射, 记为$f:X\to Y$. $X$称定義域,$Y$称値域</p>
+<h3 id="单射-one-to-one-injection-単射-たんしゃ"><a href="#单射-one-to-one-injection-単射-たんしゃ" class="headerlink" title="单射 one to one/injection 単射(たんしゃ)"></a>单射 one to one/injection 単射(たんしゃ)</h3><p>定义: $\forall x_1, x_2\in X$</p>
+<p>$x_1\neq x_2\Leftrightarrow f(x_1)\neq f(x_2)$</p>
+<p>对于单射$f$,值域中任意一$y$,在定义域中至多只有一个$x$, 使得$f(x)=y$</p>
+<h3 id="满射-onto-surjection-全射-ぜんしゃ"><a href="#满射-onto-surjection-全射-ぜんしゃ" class="headerlink" title="满射 onto/surjection 全射(ぜんしゃ)"></a>满射 onto/surjection 全射(ぜんしゃ)</h3><p>定义: $\forall y\in Y,\exists x\in X$ 使$f(x)=y$</p>
+<p>对于满射$g$,值域中任意一$y$,在定义域中至少有一个$x$, 使得$f(x)=y$</p>
+<h2 id="函数-function-函数-かんすう"><a href="#函数-function-函数-かんすう" class="headerlink" title="函数 function 函数(かんすう)"></a>函数 function 函数(かんすう)</h2><p>构成: 值域$R$, 定义域$D$, 映射法则$f$</p>
+<h3 id="函数的特性"><a href="#函数的特性" class="headerlink" title="函数的特性"></a>函数的特性</h3><ul>
+<li>有界性<br>上界定义: $\exists A, \forall x, f(x)\leq A$ holds<br>上确界: 上界中最小元素<br>下界定义: $\exists B, \forall x, f(x)\geq B$ holds<br>下确界: 下界中最大元素<br>函数有界定义: $\exists M, \forall x,\ |f(x)|\leq M$ holds</li>
+<li>单调性<br>在区间$I\in D$(D为定义域)<br>$\forall x_1, x_2\in I$<br>$x_1&lt;x_2 \Leftrightarrow f(x_1)&lt;f(x_2)$称$f$在区间$I$上单调增加<br>$x_1&lt;x_2 \Leftrightarrow f(x_1)&gt;f(x_2)$称$f$在区间$I$上单调减少</li>
+<li>奇偶性<br>奇函数定义: $f(-x)=-f(x), f(0)=0$, 奇函数图像关于原点对称<br>偶函数定义:$f(x) = f(-x)$, 偶函数图像关于y轴对称</li>
+<li>周期性<br>在函数定义域$D$内, $\exists l&gt;0$令$f(x+l)=f(x)$成立</li>
+</ul>
+<h3 id="逆函数、复合函数-inverse-function-function-composition-逆函数-ぎゃくかんすう-、合成函数-ごうせいかんすう"><a href="#逆函数、复合函数-inverse-function-function-composition-逆函数-ぎゃくかんすう-、合成函数-ごうせいかんすう" class="headerlink" title="逆函数、复合函数 inverse function,function composition 逆函数(ぎゃくかんすう)、合成函数(ごうせいかんすう)"></a>逆函数、复合函数 inverse function,function composition 逆函数(ぎゃくかんすう)、合成函数(ごうせいかんすう)</h3><ul>
+<li>逆函数<br>对于$f:D\to f(D)$, 定义$f^{-1}$为$f$的逆函数, 使得<br>$\forall y\in f(D)$, 有<strong>唯一确定</strong>$x\in D, f(x)=y, f^{-1}(y)=x$<br>此时$f$应为单射</li>
+<li>复合函数<br>$(f\circ g)(x) \Leftrightarrow f[g(x)]$, 此时需保证$g(x)\in D_f$</li>
+</ul>
+<h2 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h2><p>关于$\epsilon, \delta, X, M$表述语言, 我们常用$\epsilon, \delta$来表述一个很小但不为0的正数, 用大写字母诸如$X, M$表示一个很大的正数.</p>
+<h3 id="自变量趋于有限值时的极限"><a href="#自变量趋于有限值时的极限" class="headerlink" title="自变量趋于有限值时的极限"></a>自变量趋于有限值时的极限</h3><p>定义: </p>
+<p>$\forall \epsilon$ (无论它多么小)$, \exists\delta&gt;0$, 当$0&lt;|x-x_0|&lt;\delta$时, $|f(x)-A|&lt;\epsilon$. 称A为函数$f(x)$当$x\to x_0$时的极限, 记为$\lim_{x\to x_0}f(x)=A$</p>
+<p>根据$x$趋近$x_0$的方式, 将极限分为左极限和右极限</p>
+<ul>
+<li>$x$从负向趋近于$x_0$为左极限,记为$\lim_{x\to x_0^-}f(x)=A$ (若极限存在)<br>$\epsilon-\delta$语言表述: $\forall \epsilon, \exists\delta&gt;0$, 当$x_0-\delta&lt;x&lt;x_0$时, $|f(x)-A|&lt;\epsilon$</li>
+<li>$x$从正向趋近于$x_0$为右极限,记为$\lim_{x\to x_0^+}f(x)=A$ (若极限存在)<br>$\epsilon-\delta$语言表述: $\forall \epsilon, \exists\delta&gt;0$, 当$x_0&lt;x&lt;x_0+\delta$时, $|f(x)-A|&lt;\epsilon$</li>
+</ul>
+<p>函数某点的极限存在$\Leftrightarrow$该点左右极限相等</p>
+<h3 id="自变量趋于无穷时的极限"><a href="#自变量趋于无穷时的极限" class="headerlink" title="自变量趋于无穷时的极限"></a>自变量趋于无穷时的极限</h3><p>定义:<br>$\forall \epsilon$ (无论它多么小)$, \exists X&gt;0$, 当$|x|&gt;X$时, $|f(x)-A|&lt;\epsilon$. 称A为函数$f(x)$当$x\to \infty$时的极限, 记为$\lim_{x\to \infty}f(x)=A$</p>
+<h3 id="无穷小与无穷大-infinitesimal-infinite-無限小-むげんしょう-無限大-むげんだい"><a href="#无穷小与无穷大-infinitesimal-infinite-無限小-むげんしょう-無限大-むげんだい" class="headerlink" title="无穷小与无穷大 infinitesimal,infinite 無限小(むげんしょう),無限大(むげんだい)"></a>无穷小与无穷大 infinitesimal,infinite 無限小(むげんしょう),無限大(むげんだい)</h3><ul>
+<li>无穷小<br>函数$f(x)$, $\lim_{x\to x_0(or\ x\to\infty)}f(x)=0$,称$f(x)$为$x\to x_0(or\ x\to\infty)$的无穷小.</li>
+<li>无穷大<br>函数$f(x)$, 对于$\forall M&gt;0, \exists \delta&gt;0(or\ X&gt;0)$ 当$0&lt;|x-x_0|&lt;\delta(or\ |x|&gt;X)$时,$|f(x)|&gt;M$<br>称$f(x)$是当$x\to x_0(or\ x\to\infty)$时的无穷大</li>
+</ul>
+<p>无穷大与无穷小可相互转化:<br>$f(x)$为无穷大$\Rightarrow\frac{1}{f(x)}$为无穷小<br>$f(x)$为无穷小$\Rightarrow\frac{1}{f(x)}$为无穷大</p>
+<h3 id="极限的运算"><a href="#极限的运算" class="headerlink" title="极限的运算"></a>极限的运算</h3><ul>
+<li>两个无穷小的和仍为无穷小<br>$\to$有限个无穷小的和是无穷小</li>
+<li>有界函数、常数和无穷小的乘积是无穷小</li>
+<li>有限个无穷小的乘积为无穷小</li>
+<li>当$\lim f(x)=A,\lim g(x)=B$<br>$\lim[f(x)\pm g(x)]=\lim f(x)\pm \lim g(x)=A\pm B$<br>$\lim[f(x)\cdot g(x)]=\lim f(x)\cdot \lim g(x)=A\cdot B$<br>$\lim[\frac{f(x)}{g(x)}]=\frac{\lim f(x)}{\lim g(x)}=\frac{A}{B}(B\neq 0)$<br>$\lim[c\cdot f(x)]=c\cdot\lim f(x)=c\cdot A$<br>$\lim[f(x)]^n=[\lim f(x)]^n, n\in N$</li>
+</ul>
+<p>重要的极限<br>\begin{array}{c}<br>\lim_{x\to 0}\frac{\sin x}{x}=1, \lim_{n\to\infty}(1+\frac{x}{n})^n=e^x \cr<br>\lim_{x\to 0}\frac{x^\alpha}{e^x}=0(\alpha&gt;0),\lim_{x\to+\infty}\frac{x^\alpha}{\log x}=+\infty(\alpha&gt;0),\lim_{x\to 0}\frac{\log(1+x)}{x}=1, \lim_{x\to+0}x^x=1<br>\end{array}</p>
+<h3 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h3><p>两函数$\alpha,\beta$, 定义:</p>
+<ul>
+<li>$\lim\frac{\beta}{\alpha}=0, \beta$为$\alpha$的高阶无穷小, 记$\beta=o(α)$</li>
+<li>$\lim\frac{\beta}{\alpha}=\infty$, $\beta$为$\alpha$的低阶无穷小</li>
+<li>$\lim\frac{\beta}{\alpha}=c\neq 0$, $\beta$为$\alpha$的同阶无穷小,记$\beta=O(\alpha)$</li>
+<li>$\lim\frac{\beta}{\alpha^k}=c\neq 0, k&gt;0$, $\beta$为$\alpha$的k阶无穷小(n位の無限小)</li>
+<li>$\lim\frac{\beta}{\alpha}=1$, $\beta$为$\alpha$的等价无穷小, 记$\alpha \sim \beta$</li>
+</ul>
+<p>$\beta$与$\alpha$为等价无穷小的充要条件为$\beta=\alpha+o(\alpha)$</p>
+<p>等价替换: 若$\alpha\sim\alpha’,\beta\sim\beta’,\lim\frac{\beta’}{\alpha’}存在$, 那么$\lim\frac{\beta}{\alpha}=\lim\frac{\beta’}{\alpha’}$</p>
+<h2 id="函数的连续-continuous-連続-れんぞく"><a href="#函数的连续-continuous-連続-れんぞく" class="headerlink" title="函数的连续 continuous 連続(れんぞく)"></a>函数的连续 continuous 連続(れんぞく)</h2><p>概念: 函数$f(x)$, 当自变量$x$的增量$\Delta x\to0$, 因变量$y$的增量$\Delta y$也应该趋于0, 即$\Delta y\to 0$.<br>数学语言表达为:<br>$$<br>\lim_{\Delta x\to 0}\Delta y=\lim_{\Delta x\to 0}[f(x+\Delta x)-f(x)]=0<br>$$<br>此时称$f(x)$在$x=x_0$处连续, 等价可写为:<br>$$<br>\lim_{x\to x_0}f(x)=f(x_0)<br>$$<br>即在区间$I$内, 函数每个点的极限等于该点的函数值时, 认为函数在区间$I$上连续.</p>
+<h3 id="函数不连续的情况"><a href="#函数不连续的情况" class="headerlink" title="函数不连续的情况"></a>函数不连续的情况</h3><p>函数$f(x)$不连续, 当$f(x)$:<br>1、 在$x=x_0$处没有定义<br>2、虽然在$x=x_0$处有定义, 但$\lim_{x\to x_0}f(x)$不存在<br>3、虽然在$x=x_0$处有定义, $\lim_{x\to x_0}f(x)$存在, 但$\lim_{x\to x_0}f(x)\neq f(x_0)$</p>
+<h3 id="最大最小值定理-extreme-value-theorem-最大値・最小値の定理-さいだいち-さいしょうちのていり"><a href="#最大最小值定理-extreme-value-theorem-最大値・最小値の定理-さいだいち-さいしょうちのていり" class="headerlink" title="最大最小值定理 extreme value theorem 最大値・最小値の定理(さいだいち さいしょうちのていり)$"></a>最大最小值定理 extreme value theorem 最大値・最小値の定理(さいだいち さいしょうちのていり)$</h3><p>在<strong>闭区间</strong>上连续的函数, 一定存在最大值与最小值</p>
+<h3 id="介值定理-intermediate-value-theorem-中間値の定理-ちゅうかんちのていり"><a href="#介值定理-intermediate-value-theorem-中間値の定理-ちゅうかんちのていり" class="headerlink" title="介值定理 intermediate value theorem 中間値の定理(ちゅうかんちのていり)"></a>介值定理 intermediate value theorem 中間値の定理(ちゅうかんちのていり)</h3><p>在<strong>闭区间</strong>$[a,b]$上连续的$f(x)$, 当$f(a)\gtrless f(b),\ \forall\alpha$满足$f(a)\gtrless\alpha\gtrless f(b)$, 此时在$(a,b)$上至少有一个$\zeta$, 使$f(\zeta)=\alpha$</p>
+<h2 id="附-一些公式"><a href="#附-一些公式" class="headerlink" title="附 一些公式"></a>附 一些公式</h2><h3 id="三角变换"><a href="#三角变换" class="headerlink" title="三角变换"></a>三角变换</h3><p>不用记, 可以做题时推</p>
+<ul>
+<li>诱导<br>\begin{array}{c}<br>\sin(-x)=-\sin(-x),\  \cos(-x)=\cos(x) \cr<br>\sin(\frac{\pi}{2}-x)=\cos x,\ \cos(\frac{\pi}{2}-x)=\sin x,\ \sin(\frac{\pi}{2}+x)=\cos x,\ \cos(\frac{\pi}{2}+x)=-\sin x \cr<br>\sin(\pi-x)=\sin x,\ \cos(\pi-x)=-\cos x,\ \sin(\pi+x)=-\sin x,\ \cos(\pi+x)=-\cos x \cr<br>\tan(\frac{\pi}{2}+x)=-\cot x,\ \tan(\frac{\pi}{2}-x)=\cot x,\ \tan(\pi-x)=-\tan x,\ \tan(\pi+x)=\tan x\cr<br>\end{array}</li>
+<li>两角和差<br>\begin{array}{c}<br>\sin(a+b) = \sin a\cos b+\cos a\sin b \cr<br>\cos(a+b)=\cos a\cos b-\sin a\sin b \cr<br>\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\tan b} \cr<br>\cot(a+b)=\frac{\cot a\cot b-1}{\cot b+\cot a}<br>\end{array}</li>
+<li>倍角<br>\begin{array}{c}<br>\sin 2x=2\sin x\cos x\cr<br>\cos2x=\cos^2 x-\sin^2 x=2\cos^2 x-1=1-2sin^2 x \cr<br>\tan 2x=\frac{2\tan x}{1-\tan^2 x}\cr<br>\sin 3x=3\sin x-4\sin^3 x\cr<br>\cos 3x=4\cos^3 x-3\cos x<br>\end{array}</li>
+<li>半角<br>\begin{array}{c}<br>\sin\frac{x}{2}=\pm\sqrt{\frac{1-\cos x}{2}} \cr<br>\cos\frac{x}{2}=\pm\sqrt{\frac{1+\cos x}{2}} \cr<br>\tan\frac{x}{2}=\pm\sqrt{\frac{1-\cos x}{2}}=\frac{1-\cos x}{\sin x}=\frac{\sin x}{1+\cos x}<br>\end{array}</li>
+<li>和差化积<br>\begin{array}{c}<br>\sin a+\sin b=2\sin\frac{a+b}{2}\cos\frac{a-b}{2} \cr<br>\sin a-\sin b=2\cos\frac{a+b}{2}\sin\frac{a-b}{2} \cr<br>\cos a+\cos b=2\cos\frac{a+b}{2}\cos\frac{a-b}{2} \cr<br>\cos a-\cos b=-2\sin\frac{a+b}{2}\sin\frac{a-b}{2}<br>\end{array}</li>
+<li>积化和差<br>\begin{array}{c}<br>\sin a\cos b=\frac{1}{2}[\sin(a+b)+\sin(a-b)] \cr<br>\cos a\sin b=\frac{1}{2}[\sin(a+b)-\sin(a-b)] \cr<br>\cos a\cos b=\frac{1}{2}[\cos(a+b)+\cos(a-b)] \cr<br>\sin a\sin b=-\frac{1}{2}[\cos(a+b)-\cos(a-b)] \cr<br>\end{array}</li>
+<li>其他<br>\begin{array}{c}<br>\sin^2 x+\cos^2 x=1 \cr<br>\sin a = \frac{2\tan\frac{a}{2}}{1+\tan^2\frac{a}{2}} \cr<br>\cos a =\frac{1-\tan^2\frac{a}{2}}{1+\tan^2\frac{a}{2}} \cr<br>\tan a=\frac{2\tan\frac{a}{2}}{1-tan^2\frac{a}{2}}\cr<br>1+\tan^2 a = \sec^2 a \cr<br>1+\cot^2 a = \csc^2 a \cr<br>\end{array}<br>对于任意非直角三角形, 总有:$\tan a+\tan b+\tan c=\tan a\tan b\tan c$<br>\begin{array}{c}<br>\arccos x=\frac{\pi}{2}-\arcsin x \cr<br>arccot\ x=\frac{\pi}{2}-\arctan x \cr<br>\arctan a+\arctan\frac{1}{a}=\frac{\pi}{2} \cr<br>\arctan a\pm\arctan b=\arctan\frac{a\pm b}{1\mp ab}+c\pi<br>\end{array}<h3 id="等价无穷小"><a href="#等价无穷小" class="headerlink" title="等价无穷小"></a>等价无穷小</h3></li>
+<li>$x\to 0$时:<br>\begin{array}{c}<br>\sin x\sim x\cr<br>\arcsin x\sim x\cr<br>\tan x\sim x\cr<br>e^x-1\sim x\cr<br>a^x-1\sim x\ln a(a&gt;0,a\neq 1)\cr<br>\ln(1+x)\sim x\cr<br>\log_a(1+x)\sim\frac{x}{\ln a}(a&gt;0, a\neq 1)\cr<br>1-\cos x\sim\frac{1}{2}x^2\cr<br>(1+bx)^a-1\sim abx\cr<br>(1+x)^a-1\sim ax<br>\end{array}<h3 id="不等式"><a href="#不等式" class="headerlink" title="不等式"></a>不等式</h3></li>
+<li>Schwarz inequality $|\vec v\cdot\vec w|\leq ||\vec v||\ ||\vec w||$</li>
+<li>triangle inequality $||\vec v+\vec w||\leq ||\vec v||+||\vec w||$</li>
+<li>geometric mean$\leq$arithmetic mean: like $\sqrt[3]{xyz}\leq\frac{1}{3}(x+y+z)$</li>
+</ul>
+<h1 id="导数与微分"><a href="#导数与微分" class="headerlink" title="导数与微分"></a>导数与微分</h1><h2 id="导数、微分"><a href="#导数、微分" class="headerlink" title="导数、微分"></a>导数、微分</h2><ul>
+<li>切线 tangent line 接線(せっせん)<br>曲线上一点$M$的切线, 即在曲线上另取一点N, 令N逼近M, 此时NM会趋向于某条确定的线, 称这条线为切线.<br>令切线与x轴的夹角$\varphi$, 切线的斜率为:<br>$k=\tan\varphi=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}$</li>
+<li>法线 Normal 法線(ほうせん)<br>令过某点切线为$y_1$, 法线为$y_2$, 法线定义为和切线相垂直, 即$y_1’\cdot y_2’=-1$<h3 id="导函数定义-Derivative-導関数-どうかんすう"><a href="#导函数定义-Derivative-導関数-どうかんすう" class="headerlink" title="导函数定义 Derivative 導関数 (どうかんすう)"></a>导函数定义 <em>Derivative</em> <em>導関数 (どうかんすう)</em></h3>在一元函数的情况下</li>
+<li>某点的导数: 函数$y=f(x)$在某点$x_0$的邻域内, 当自变量取增量$\Delta x$, 相应的, 因变量也会取增量$\Delta y.$ 若$\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}$存在, 称$f(x)$在$x_0$处可导, 并称这个极限值为$f(x)$在$x_0$处的导数.记为:<br>$f’(x_0)=\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\to 0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}$</li>
+<li>导函数 導関数(どうかんすう)<br>函数$y=f(x)$在区间I内每一点都可导, 直接用$x$代替$x_0$, 得到导函数:<br>$y’=f’(x)=\lim_{\Delta x\to x}\frac{f(x+\Delta x)-f(x)}{\Delta x}$</li>
+</ul>
+<p>例 根据定义求$f(x)=\log_a^x(a&gt;0, a\neq1)$的导数</p>
+<ul>
+<li>切线与法线的方程求法<br>函数$f(x)$在$x=a$处的切线, $\frac{y-f(a)}{x-a}=f’(a)$<br>函数$f(x)$在$x=a$处的法线, $\frac{y-f(a)}{x-a}=\frac{1}{f’(a)}$<h3 id="导数不存在的情况"><a href="#导数不存在的情况" class="headerlink" title="导数不存在的情况"></a>导数不存在的情况</h3>根据导数定义式$\lim_{\Delta x\to 0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}, \Delta x\to x_0$涉及到趋近方向的问题</li>
+</ul>
+<p>左导数定义:$f_{-}’(x_0)=\lim_{\Delta x\to 0^-}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}$<br>右导数定义:$f_{+}’(x_0)=\lim_{\Delta x\to 0^+}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}$</p>
+<p>$f(x)$在$x_0$处可导的充要条件是左导数、右导数存在且相等. 等价于导函数定义在该点极限存在, 即在点$x_0$连续.</p>
+<p>例 求函数$f(x)=|x|$在$x=0$处的导数.</p>
+<h3 id="可导与连续的关系"><a href="#可导与连续的关系" class="headerlink" title="可导与连续的关系"></a>可导与连续的关系</h3><p>结论: 函数$f(x)$在点$x_0$处: 可导必连续, 连续不一定可导</p>
+<p>证明:</p>
+<ul>
+<li>可导必连续:<br>回顾:同阶无穷小定义$\lim\frac{\beta}{\alpha}=c\Rightarrow \lim\frac{\beta}{c\alpha}=\frac{1}{c}\lim\frac{\beta}{\alpha}=1\Rightarrow \beta\sim c\alpha\Rightarrow \beta=c\alpha+o(c\alpha)$<br>$\lim\frac{o(c\alpha)}{\alpha}=0\Rightarrow \beta=c\alpha+o(\alpha)$</li>
+</ul>
+<p>函数$f(x)$在点$x_0$处可导$\Rightarrow \lim_{\Delta x\to0}\frac{\Delta y}{\Delta x}=f’(x)$<br>$\Delta y=f’(x)\Delta x+o(\Delta x)$<br>$\therefore when\  \Delta x\to 0, \Delta y\to0$</p>
+<ul>
+<li>连续不一定可导:<br>反例: 在$x=0$处:</li>
+</ul>
+<ol>
+<li>$y=\sqrt[3]x$ 导数为无穷</li>
+<li>$y=|x|$ 左右导数不相等</li>
+</ol>
+<h3 id="微分-differentiation-微分-びふん"><a href="#微分-differentiation-微分-びふん" class="headerlink" title="微分  differentiation 微分(びふん)"></a>微分  <em>differentiation</em> <em>微分(びふん)</em></h3><ul>
+<li>定义:<br>在$x=x_0$处, 自变量取得很小的增量$\Delta x$时, 因变量取得的增量$\Delta y$可以表示为$\Delta y=A\Delta x+o(\Delta x), A$是不依赖于$\Delta x$的常数. 可用$A\Delta x$近似替代$\Delta y$. 称$y=f(x)$在点$x_0$处可微, 称$A\Delta x$为其微分. 记法上$\Delta x=dx$, 因此记为$dy=A\ dx$</li>
+<li>微分与导数的关系</li>
+</ul>
+<ol>
+<li>可微$\Rightarrow$可导<br>$A=f’(x)$, 又称 微分係数</li>
+<li>可微$\Leftarrow$可导</li>
+</ol>
+<h2 id="求导方法"><a href="#求导方法" class="headerlink" title="求导方法"></a>求导方法</h2><h3 id="和差商积"><a href="#和差商积" class="headerlink" title="和差商积"></a>和差商积</h3><ol>
+<li>$[u(x)\pm v(x)]’ = u’(x)\pm v’(x),\  d[u+v]=du\pm dv$</li>
+<li>$[u(x)v(x)]’ = u’v+uv’,\  d[uv]=v\ du+u\ dv$ </li>
+<li>$[\frac{u(x)}{v(x)}]’=\frac{u’(x)v(x)-u(x)v’(x)}{v^2(x)}, d[\frac{u}{v}]=\frac{v\ du-u\ dv}{v^2}$</li>
+</ol>
+<p>例</p>
+<ol>
+<li>$f(x)=x^3+4\cos x-\sin\frac{\pi}{2}$, calculate the $f’(x)$.</li>
+<li>$f(x)=e^x(\sin x+\cos x)$, calculate the $f’(x)$.</li>
+<li>$f(x)=\tan x$, calculate the $f’(x)$.</li>
+</ol>
+<h3 id="反函数-Inverse-function-逆関数-ぎゃくかんすう"><a href="#反函数-Inverse-function-逆関数-ぎゃくかんすう" class="headerlink" title="反函数 Inverse function 逆関数(ぎゃくかんすう)"></a>反函数 <em>Inverse function</em> <em>逆関数(ぎゃくかんすう)</em></h3><p>函数$x=f(y)$在区间$I$内单调、可导且$f’(y)\neq 0$, 其反函数$y=f^{-1}(x)$在区间$I_x={x|x=f(y), y\in I}$内也可导, 且反函数的导数等于直接函数导数的倒数:<br>$[f^{-1}(x)]=\frac{1}{f’(y)}, \frac{dy}{dx}=\frac{1}{dx/dy}$</p>
+<p>例</p>
+<ol>
+<li><img src="https://i.ibb.co/6BwLc71/IMG-0246.jpg" alt="arctan"><br>ps. one-valued function. 関数$y＝f(x)$において，1つの x に対して y の値がただ1つ対応するものをいう。</li>
+<li>$(\arcsin x)’$</li>
+</ol>
+<h3 id="复合函数-Function-composition-合成関数-ごうせいかんすう"><a href="#复合函数-Function-composition-合成関数-ごうせいかんすう" class="headerlink" title="复合函数　Function composition　合成関数(ごうせいかんすう)"></a>复合函数　<em>Function composition</em>　<em>合成関数(ごうせいかんすう)</em></h3><p>$y=f(u), u=g(x). f(u),g(x)$都可导,复合函数y=f[g(x)]的导数为:<br>$y’(x)=f’(u)\cdot g’(x), \frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$</p>
+<p>例.</p>
+<ol>
+<li>$f(x)=\ln\cos(e^x)$, calculate the $\frac{dy}{dx}$.</li>
+<li>$f(x)=e^{\sin\frac{1}{x}}$, calculate the $\frac{dy}{dx}$.</li>
+</ol>
+<h3 id="高阶求导-高次導関数-こうじどうかんすう"><a href="#高阶求导-高次導関数-こうじどうかんすう" class="headerlink" title="高阶求导  高次導関数(こうじどうかんすう)"></a>高阶求导  <em>高次導関数(こうじどうかんすう)</em></h3><p>函数可求n次导数, 若n阶可导那么称$f^{(n)}(x)$为n阶导数<br>$y’’=(y’), y’’’=(y’’)’, y^{(4)}=(y’’’)’, ….$<br>$\frac{d^2 y}{dx^2}=\frac{d}{dx}(\frac{dy}{dx}),\frac{d^3y}{dx^3}=\frac{d}{dx}(\frac{d^2y}{dx^2}), ….$</p>
+<p>例</p>
+<ol>
+<li><img src="https://i.ibb.co/hXLZwhz/2019-10-25-10-25-40.png" alt="high-order"></li>
+<li>$\sin x, \cos x$のn次導関数を求めよ</li>
+<li>$y=x^\mu$のn次導関数を求めよ</li>
+<li><img src="https://i.ibb.co/bPfFL2r/2019-10-25-10-27-58.png%22" alt="combine"></li>
+</ol>
+<ul>
+<li>莱布尼茨公式 <em>Leibniz rule</em> <em>ライプニッツの式</em><br>$u, v$ n阶可导, $(uv)^{(n)}=\sum_{k=0}^{n}C_n^k u^{(n-k)}v^{(k)}$</li>
+</ul>
+<p>例.</p>
+<ol>
+<li>用数学归纳法证明莱布尼茨公式.</li>
+<li>$y=x^2e^{2x}$, calculate the $y^{(20)}$.</li>
+</ol>
+<h3 id="隐函数求导-Implicit-function-陰関数-いんかんすう"><a href="#隐函数求导-Implicit-function-陰関数-いんかんすう" class="headerlink" title="隐函数求导 Implicit function 陰関数(いんかんすう)"></a>隐函数求导 <em>Implicit function</em> <em>陰関数(いんかんすう)</em></h3><p>$F(x, y)=0$, 当$x$取某值时, 相应的总有满足该方程的唯一$y$, 称其为隐函数.<br>例</p>
+<ol>
+<li>求方程$e^y+xy-e=0$所确定的隐函数的导数$\frac{dy}{dx}$</li>
+<li>求方程$x-y+\frac{1}{2}\sin y=0$所确定的隐函数的二阶导数$\frac{d^2y}{dx^2}$</li>
+</ol>
+<p>利用对数:</p>
+<ol start="3">
+<li>求$y=x^{\sin x}$的导数</li>
+<li>求$y=\sqrt\frac{(x-1)(x-2)}{(x-3)(x-4)}$的导数.</li>
+</ol>
+<h3 id="参数方程求导-auxiliary-variable-助変数-じょへんすう"><a href="#参数方程求导-auxiliary-variable-助変数-じょへんすう" class="headerlink" title="参数方程求导 auxiliary variable 助変数(じょへんすう)"></a>参数方程求导 <em>auxiliary variable</em> <em>助変数(じょへんすう)</em></h3><p>$x, y$由参数方程$t$决定:<br>$$<br>\begin{cases}<br>x=\varphi(t)\<br>y=\psi(t)<br>\end{cases}\<br>\frac{dy}{dx}=\frac{dy}{dt}\frac{dt}{dx}=\frac{dy}{dt}\frac{1}{dx/dy}=\frac{\varphi’}{\psi’}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}<br>$$<br>例</p>
+<ol>
+<li><img src="https://i.ibb.co/Vgy9wWc/2019-10-25-10-59-42.png" alt="eq2. II"><br><img src="https://i.ibb.co/CBq2F0t/2019-10-25-10-59-25.png" alt="problem"></li>
+</ol>
+<h2 id="导函数应用"><a href="#导函数应用" class="headerlink" title="导函数应用"></a>导函数应用</h2><h3 id="罗尔定理-Rolle’s-theorem-ロルの定理-ロルのていり"><a href="#罗尔定理-Rolle’s-theorem-ロルの定理-ロルのていり" class="headerlink" title="罗尔定理 Rolle’s theorem ロルの定理(ロルのていり)"></a>罗尔定理 Rolle’s theorem ロルの定理(ロルのていり)</h3><p>闭区间$[a,b]$上连续的函数$f(x)$在开区间$(a,b)$上可导,且$f(a)=f(b)$. 一定存在$\zeta\in(a,b)$使$f’(\zeta)=0$</p>
+<h3 id="拉格朗日中值定理-Mean-value-theorem-ラグランジュの平均値の定理"><a href="#拉格朗日中值定理-Mean-value-theorem-ラグランジュの平均値の定理" class="headerlink" title="拉格朗日中值定理 Mean value theorem ラグランジュの平均値の定理"></a>拉格朗日中值定理 <em>Mean value theorem</em> <em>ラグランジュの平均値の定理</em></h3><p>$[a,b]$上连续的函数$f(x)$在开区间$(a,b)$上可导,一定存在$\zeta\in(a,b)$使$\frac{f(b)-f(a)}{b-a}=f’(\zeta)$<br>例 Show that:<br><img src="https://i.ibb.co/8dJCHcQ/2019-10-25-11-46-07.png%22" alt="lagrange"></p>
+<h3 id="柯西中值定理-Cauchy’s-mean-value-theorem-コーシーの平均値の定理"><a href="#柯西中值定理-Cauchy’s-mean-value-theorem-コーシーの平均値の定理" class="headerlink" title="柯西中值定理 Cauchy’s mean-value theorem  コーシーの平均値の定理"></a>柯西中值定理 <em>Cauchy’s mean-value theorem</em>  <em>コーシーの平均値の定理</em></h3><p>$[a,b]$上连续的函数$f(x), g(x)$在开区间$(a,b)$上可导,$\forall x\in(a,b), g’(x)\neq 0$. 一定存在$\zeta\in(a,b)$使$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f’(\zeta)}{g’(\zeta)}$</p>
+<h3 id="洛必达法则-L’Hopital’s-rule-ロピタルの定理"><a href="#洛必达法则-L’Hopital’s-rule-ロピタルの定理" class="headerlink" title="洛必达法则 L’Hôpital’s rule ロピタルの定理"></a>洛必达法则 <em>L’Hôpital’s rule</em> <em>ロピタルの定理</em></h3><p>$f(x),g(x)$同时趋于0或无穷. $\lim\frac{f(x)}{g(x)}=\lim\frac{f’(x)}{g’(x)}$</p>
+<h2 id="常用导数公式"><a href="#常用导数公式" class="headerlink" title="常用导数公式"></a>常用导数公式</h2><p><img src="https://i.ibb.co/dgGrHbB/2019-10-24-9-42-07.png" alt="formula"><br>其中(9)模糊不清, 为$(a^x)’=a^x\ln a$<br>$$<br>(\sinh x)’=\cosh x \\<br>(\cosh x)’=\sinh x \\<br>(arsinh\ x)’=\frac{1}{\sqrt{1+x^2}}\\<br>(arcosh\ x)’=\frac{1}{\sqrt{x^2-1}}\\<br>(artanh\ x)’=\frac{1}{1-x^2}<br>$$</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/2019/10/10/plan/" rel="prev" title="微积分课程安排">
+                  微积分课程安排 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#函数-関数-かんすう"><span class="nav-number">1.</span> <span class="nav-text">函数 関数(かんすう)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#映射-map-写像-しゃぞう"><span class="nav-number">1.1.</span> <span class="nav-text">映射 map 写像(しゃぞう)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#单射-one-to-one-injection-単射-たんしゃ"><span class="nav-number">1.1.1.</span> <span class="nav-text">单射 one to one/injection 単射(たんしゃ)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#满射-onto-surjection-全射-ぜんしゃ"><span class="nav-number">1.1.2.</span> <span class="nav-text">满射 onto/surjection 全射(ぜんしゃ)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#函数-function-函数-かんすう"><span class="nav-number">1.2.</span> <span class="nav-text">函数 function 函数(かんすう)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#函数的特性"><span class="nav-number">1.2.1.</span> <span class="nav-text">函数的特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#逆函数、复合函数-inverse-function-function-composition-逆函数-ぎゃくかんすう-、合成函数-ごうせいかんすう"><span class="nav-number">1.2.2.</span> <span class="nav-text">逆函数、复合函数 inverse function,function composition 逆函数(ぎゃくかんすう)、合成函数(ごうせいかんすう)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#极限"><span class="nav-number">1.3.</span> <span class="nav-text">极限</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#自变量趋于有限值时的极限"><span class="nav-number">1.3.1.</span> <span class="nav-text">自变量趋于有限值时的极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自变量趋于无穷时的极限"><span class="nav-number">1.3.2.</span> <span class="nav-text">自变量趋于无穷时的极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#无穷小与无穷大-infinitesimal-infinite-無限小-むげんしょう-無限大-むげんだい"><span class="nav-number">1.3.3.</span> <span class="nav-text">无穷小与无穷大 infinitesimal,infinite 無限小(むげんしょう),無限大(むげんだい)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#极限的运算"><span class="nav-number">1.3.4.</span> <span class="nav-text">极限的运算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#无穷小的比较"><span class="nav-number">1.3.5.</span> <span class="nav-text">无穷小的比较</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#函数的连续-continuous-連続-れんぞく"><span class="nav-number">1.4.</span> <span class="nav-text">函数的连续 continuous 連続(れんぞく)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#函数不连续的情况"><span class="nav-number">1.4.1.</span> <span class="nav-text">函数不连续的情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#最大最小值定理-extreme-value-theorem-最大値・最小値の定理-さいだいち-さいしょうちのていり"><span class="nav-number">1.4.2.</span> <span class="nav-text">最大最小值定理 extreme value theorem 最大値・最小値の定理(さいだいち さいしょうちのていり)$</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#介值定理-intermediate-value-theorem-中間値の定理-ちゅうかんちのていり"><span class="nav-number">1.4.3.</span> <span class="nav-text">介值定理 intermediate value theorem 中間値の定理(ちゅうかんちのていり)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附-一些公式"><span class="nav-number">1.5.</span> <span class="nav-text">附 一些公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三角变换"><span class="nav-number">1.5.1.</span> <span class="nav-text">三角变换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#等价无穷小"><span class="nav-number">1.5.2.</span> <span class="nav-text">等价无穷小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不等式"><span class="nav-number">1.5.3.</span> <span class="nav-text">不等式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#导数与微分"><span class="nav-number">2.</span> <span class="nav-text">导数与微分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#导数、微分"><span class="nav-number">2.1.</span> <span class="nav-text">导数、微分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#导函数定义-Derivative-導関数-どうかんすう"><span class="nav-number">2.1.1.</span> <span class="nav-text">导函数定义 Derivative 導関数 (どうかんすう)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#导数不存在的情况"><span class="nav-number">2.1.2.</span> <span class="nav-text">导数不存在的情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#可导与连续的关系"><span class="nav-number">2.1.3.</span> <span class="nav-text">可导与连续的关系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#微分-differentiation-微分-びふん"><span class="nav-number">2.1.4.</span> <span class="nav-text">微分  differentiation 微分(びふん)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#求导方法"><span class="nav-number">2.2.</span> <span class="nav-text">求导方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#和差商积"><span class="nav-number">2.2.1.</span> <span class="nav-text">和差商积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#反函数-Inverse-function-逆関数-ぎゃくかんすう"><span class="nav-number">2.2.2.</span> <span class="nav-text">反函数 Inverse function 逆関数(ぎゃくかんすう)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#复合函数-Function-composition-合成関数-ごうせいかんすう"><span class="nav-number">2.2.3.</span> <span class="nav-text">复合函数　Function composition　合成関数(ごうせいかんすう)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高阶求导-高次導関数-こうじどうかんすう"><span class="nav-number">2.2.4.</span> <span class="nav-text">高阶求导  高次導関数(こうじどうかんすう)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#隐函数求导-Implicit-function-陰関数-いんかんすう"><span class="nav-number">2.2.5.</span> <span class="nav-text">隐函数求导 Implicit function 陰関数(いんかんすう)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参数方程求导-auxiliary-variable-助変数-じょへんすう"><span class="nav-number">2.2.6.</span> <span class="nav-text">参数方程求导 auxiliary variable 助変数(じょへんすう)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#导函数应用"><span class="nav-number">2.3.</span> <span class="nav-text">导函数应用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#罗尔定理-Rolle’s-theorem-ロルの定理-ロルのていり"><span class="nav-number">2.3.1.</span> <span class="nav-text">罗尔定理 Rolle’s theorem ロルの定理(ロルのていり)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拉格朗日中值定理-Mean-value-theorem-ラグランジュの平均値の定理"><span class="nav-number">2.3.2.</span> <span class="nav-text">拉格朗日中值定理 Mean value theorem ラグランジュの平均値の定理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#柯西中值定理-Cauchy’s-mean-value-theorem-コーシーの平均値の定理"><span class="nav-number">2.3.3.</span> <span class="nav-text">柯西中值定理 Cauchy’s mean-value theorem  コーシーの平均値の定理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#洛必达法则-L’Hopital’s-rule-ロピタルの定理"><span class="nav-number">2.3.4.</span> <span class="nav-text">洛必达法则 L’Hôpital’s rule ロピタルの定理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用导数公式"><span class="nav-number">2.4.</span> <span class="nav-text">常用导数公式</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="site-author-image" itemprop="image" alt="John Doe"
+    src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.4.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/muse.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
+
+  
+
+  
+
+</body>
+</html>
